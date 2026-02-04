@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+    padding: 2em;
+    margin: 2em 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.dashboard-options button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dashboard-options button:hover {
+    background-color: #0056b3;
+}
+
+/* Job Listings */
+.job-listings {
+    display: flex;
+    gap: 20px;
+}
+
+.job-item {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+    margin: 0 0 10px;
+}
+
+.job-item a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.job-item a:hover {
+    text-decoration: underline;
+}
+
+/* Apply Job Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Background Image Section */
+.background-image {
+    background-image: url('your-image.jpg'); /* Replace with your uploaded image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.background-image h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.background-image p {
+    font-size: 1.5em;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 5em 0;
+}
+
+.start-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.start-btn:hover {
+    background-color: #0056b3;
+}

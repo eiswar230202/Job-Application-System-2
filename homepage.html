@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application System - Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home</a></li>
+                <li><a href="#user-dashboard">User Dashboard</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#job-catalogue">Job Catalogue</a></li>
+                <li><a href="#apply-job">Apply Job</a></li>
+                <li><a href="#application-status">Application Status</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- User Dashboard Section -->
+    <section id="user-dashboard" class="section dashboard">
+        <h2>User Dashboard</h2>
+        <p>Welcome back, User! Here's your dashboard with options to manage your applications.</p>
+        <div class="dashboard-options">
+            <button>View Applications</button>
+            <button>Update Profile</button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="section about-us">
+        <h2>About Us</h2>
+        <p>We connect talented professionals with employers. Our platform is designed to streamline the hiring process for both job seekers and companies. Join us to discover your potential!</p>
+    </section>
+
+    <!-- Job Catalogue Section -->
+    <section id="job-catalogue" class="section job-catalogue">
+        <h2>Job Catalogue</h2>
+        <div class="job-listings">
+            <div class="job-item">
+                <h3>Software Developer</h3>
+                <p>Location: Remote</p>
+                <a href="#job-details">View Details</a>
+            </div>
+            <div class="job-item">
+                <h3>Graphic Designer</h3>
+                <p>Location: New York</p>
+                <a href="#job-details">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Details Section -->
+    <section id="job-details" class="section job-details">
+        <h2>Job Details</h2>
+        <ul>
+            <li><strong>Position:</strong> Software Developer</li>
+            <li><strong>Company:</strong> Tech Corp</li>
+            <li><strong>Responsibilities:</strong> Develop software solutions</li>
+            <li><strong>Requirements:</strong> 3+ years of experience in software development</li>
+        </ul>
+        <a href="#apply-job">Apply Now</a>
+    </section>
+
+    <!-- Apply Job Section -->
+    <section id="apply-job" class="section apply-job">
+        <h2>Apply for Job</h2>
+        <form action="" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" required>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Application Status Section -->
+    <section id="application-status" class="section status">
+        <h2>Application Status</h2>
+        <p>Your application is under review. We will notify you once the decision is made.</p>
+    </section>
+
+    <!-- Background Image Section -->
+    <section class="background-image">
+        <h2>Join Us Today!</h2>
+        <p>Start your career with us and explore amazing opportunities.</p>
+    </section>
+
+</body>
+</html>
