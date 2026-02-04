@@ -1,100 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Application System - Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title>Job Application System | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#f4f6f9;color:#333}
+header{background:#1f2933;padding:15px 0}
+nav ul{display:flex;justify-content:center;list-style:none}
+nav ul li{margin:0 15px}
+nav ul li a{color:#fff;text-decoration:none;font-weight:bold}
+nav ul li a:hover{color:#38bdf8}
+.hero{background:linear-gradient(to right,#2563eb,#38bdf8);color:#fff;text-align:center;padding:80px 10%}
+.hero h1{font-size:3rem}
+.hero p{font-size:1.2rem}
+.cta{background:#1f2933;color:#fff;text-align:center;padding:50px 10%}
+</style>
 </head>
+
 <body>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Back to Home</a></li>
-                <li><a href="#user-dashboard">User Dashboard</a></li>
-                <li><a href="#about-us">About Us</a></li>
-                <li><a href="#job-catalogue">Job Catalogue</a></li>
-                <li><a href="#apply-job">Apply Job</a></li>
-                <li><a href="#application-status">Application Status</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+<nav>
+<ul>
+<li><a href="homepage.html">Home</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="jobs.html">Jobs</a></li>
+<li><a href="status.html">Status</a></li>
+</ul>
+</nav>
+</header>
 
-    <!-- User Dashboard Section -->
-    <section id="user-dashboard" class="section dashboard">
-        <h2>User Dashboard</h2>
-        <p>Welcome back, User! Here's your dashboard with options to manage your applications.</p>
-        <div class="dashboard-options">
-            <button>View Applications</button>
-            <button>Update Profile</button>
-        </div>
-    </section>
+<section class="hero">
+<h1>Job Application System</h1>
+<p>Find your dream job or the perfect candidate</p>
+</section>
 
-    <!-- About Us Section -->
-    <section id="about-us" class="section about-us">
-        <h2>About Us</h2>
-        <p>We connect talented professionals with employers. Our platform is designed to streamline the hiring process for both job seekers and companies. Join us to discover your potential!</p>
-    </section>
-
-    <!-- Job Catalogue Section -->
-    <section id="job-catalogue" class="section job-catalogue">
-        <h2>Job Catalogue</h2>
-        <div class="job-listings">
-            <div class="job-item">
-                <h3>Software Developer</h3>
-                <p>Location: Remote</p>
-                <a href="#job-details">View Details</a>
-            </div>
-            <div class="job-item">
-                <h3>Graphic Designer</h3>
-                <p>Location: New York</p>
-                <a href="#job-details">View Details</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Job Details Section -->
-    <section id="job-details" class="section job-details">
-        <h2>Job Details</h2>
-        <ul>
-            <li><strong>Position:</strong> Software Developer</li>
-            <li><strong>Company:</strong> Tech Corp</li>
-            <li><strong>Responsibilities:</strong> Develop software solutions</li>
-            <li><strong>Requirements:</strong> 3+ years of experience in software development</li>
-        </ul>
-        <a href="#apply-job">Apply Now</a>
-    </section>
-
-    <!-- Apply Job Section -->
-    <section id="apply-job" class="section apply-job">
-        <h2>Apply for Job</h2>
-        <form action="" method="post">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="resume">Upload Resume:</label>
-            <input type="file" id="resume" name="resume" required>
-
-            <button type="submit">Submit Application</button>
-        </form>
-    </section>
-
-    <!-- Application Status Section -->
-    <section id="application-status" class="section status">
-        <h2>Application Status</h2>
-        <p>Your application is under review. We will notify you once the decision is made.</p>
-    </section>
-
-    <!-- Background Image Section -->
-    <section class="background-image">
-        <h2>Join Us Today!</h2>
-        <p>Start your career with us and explore amazing opportunities.</p>
-    </section>
+<section class="cta">
+<h2>Start Your Career Today</h2>
+<p>Browse jobs and apply easily</p>
+</section>
 
 </body>
 </html>
