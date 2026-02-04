@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome | Job Application System</title>
+    <title>Job Application System</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,16 +12,94 @@
     <header>
         <nav>
             <ul>
-                <li><a href="homepage.html">Go to Homepage</a></li>
+                <li><a href="#user-dashboard">User Dashboard</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#job-catalogue">Job Catalogue</a></li>
+                <li><a href="#apply-job">Apply Job</a></li>
+                <li><a href="#application-status">Application Status</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Welcome Section -->
-    <section class="welcome-section">
-        <h1>Welcome to Job Application System</h1>
-        <p>Find your dream job or hire the perfect candidate. Click below to get started.</p>
-        <a href="homepage.html" class="start-btn">Go to Homepage</a>
+    <!-- User Dashboard Section -->
+    <section id="user-dashboard" class="section">
+        <h2>User Dashboard</h2>
+        <p>Welcome back, User! Here's your dashboard.</p>
+        <div class="dashboard-options">
+            <button>View Applications</button>
+            <button>Update Profile</button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="section">
+        <h2>About Us</h2>
+        <p>We are a platform that connects talented professionals with amazing job opportunities. Our mission is to simplify the hiring process for both job seekers and companies.</p>
+    </section>
+
+    <!-- Job Catalogue Section -->
+    <section id="job-catalogue" class="section">
+        <h2>Job Catalogue</h2>
+        <div class="job-listings">
+            <div class="job-item">
+                <h3>Software Developer</h3>
+                <p>Location: Remote</p>
+                <a href="#job-details">View Details</a>
+            </div>
+            <div class="job-item">
+                <h3>Graphic Designer</h3>
+                <p>Location: New York</p>
+                <a href="#job-details">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Details Section -->
+    <section id="job-details" class="section">
+        <h2>Job Details</h2>
+        <p>Learn more about the job opening and what it entails.</p>
+        <ul>
+            <li><strong>Position:</strong> Software Developer</li>
+            <li><strong>Company:</strong> Tech Corp</li>
+            <li><strong>Responsibilities:</strong> Develop innovative software solutions.</li>
+            <li><strong>Requirements:</strong> 3+ years of experience in software development.</li>
+        </ul>
+        <a href="#apply-job">Apply Now</a>
+    </section>
+
+    <!-- Apply Job Section -->
+    <section id="apply-job" class="section">
+        <h2>Apply for Job</h2>
+        <form action="" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" required>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Application Status Section -->
+    <section id="application-status" class="section">
+        <h2>Application Status</h2>
+        <p>Your application is under review. We'll notify you once the decision is made.</p>
+    </section>
+
+    <!-- Confirmation Section -->
+    <section id="confirmation" class="section">
+        <h2>Application Confirmation</h2>
+        <p>Thank you for applying! We have received your application and will get back to you soon.</p>
+    </section>
+
+    <!-- Background Image Section -->
+    <section class="background-image">
+        <h2>Join Us Today!</h2>
+        <p>Start your career with us and explore amazing opportunities.</p>
     </section>
 
 </body>
